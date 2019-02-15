@@ -1,3 +1,239 @@
-/*
- * Estilos de tu proyecto
- */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300&subset=latin-ext');
+
+body{
+    margin: 0; 
+}
+
+.direita{
+    display: flex; 
+    justify-content: space-between; 
+    margin: 0;
+}
+
+.menu ul li { 
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;  
+    font-size: 20px;   
+}
+
+.menu { 
+    padding: 20px; 
+    height: 70px;
+    background-color: #2c3e50;  
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex; 
+    justify-content: space-around; 
+ }
+
+ .esquerda  a {
+    text-decoration: none; 
+    font-size: 40px;
+    color: white; 
+}
+
+ .start{
+    background-color: #18bc9c ;
+    padding: 70px;
+    text-align: center; 
+    color:white;   
+ }
+
+ figure{
+    display: flex;
+    justify-content: center;     
+}
+
+ h1{
+    font-size: 85px; 
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px; 
+ }
+
+ h3{
+    font-size: 30px; 
+    font-family: 'Lato', sans-serif;
+    margin-top: 50px;
+ }
+
+.portfolio{
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+ h2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 60px; 
+    text-align: center; 
+    margin: 60px 40px 0px 40px; 
+    color: #2c3e50;
+}
+ 
+.portfolio  img { 
+    width: 30%; 
+    margin-bottom: 35px; 
+ }
+
+.about{
+    padding: 30px;
+    background-color: #18bc9c ;
+    display: flex; 
+    flex-direction: column;     
+}
+
+.about  h2{
+    color:white; 
+}
+
+.about  button{
+    display: flex; 
+    justify-content: center;  
+    font-family: 'Lato', sans-serif bold;
+    color: white; 
+    font-size: 20px; 
+    background-color: #18bc9c; 
+    border: 2px solid white ;  
+    margin-top: 35px; 
+    padding: 20px; 
+    border-radius: 5px; 
+    margin-left: 650px;
+    margin-right: 650px;   
+}
+.about i {
+    padding-right: 10px; 
+}
+
+.align{
+    display: flex; 
+    justify-content: center;
+    font-family: 'Lato';  
+    color: white; 
+    font-size: 25px;  
+}
+
+.align  div{
+    width: 30%; 
+    margin: 0 15px 0; 
+}
+
+.contact{
+    padding: 50px; 
+    display: flex;  
+    flex-direction: column; 
+}
+
+form input  {
+    display: flex;
+    justify-content: flex-start;  
+    border: none;   
+    border-bottom: 2px solid #e9ecef; 
+    margin: 20px 20px 50px 300px;
+    font-size: 20px;  
+    width: 55%; 
+    font-family: 'Lato';    
+}
+
+form  button {
+    text-align: center; 
+    display: flex;
+    justify-content:flex-start; 
+    background-color: #18bc9c;
+    border-radius:5px; 
+    border: none; 
+    margin: 50px 20px 50px 300px;
+    padding: 20px; 
+    color: white; 
+    font-family: 'Lato'; 
+} 
+
+.footer{    
+    display: flex; 
+    justify-content: space-evenly; 
+    flex-direction: row; 
+    margin: none; 
+    color: white; 
+    padding: 30px; 
+    background-color: #2c3e50;
+}
+
+.footer div{
+    width: 400px; 
+    font-family: 'lato' ; 
+    font-size: 20px; 
+    text-align: center; 
+}
+
+.footer div p {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 20px;     
+}
+
+.footer span{
+    color:  #18bc9c; 
+}
+
+.footer div i{
+    border-radius: 50px; 
+    border: 1px white solid; 
+    margin: 10px;
+    padding: 10px; 
+    height: 10px; 
+    width: 10px;  
+}
+
+.footer2 {
+    padding: 20px; 
+    text-align: center; 
+    font-family: 'lato'; 
+    color: white;
+    background-color: #212529;
+}
+
+.star {
+    width: 300px;
+    height: 5px;
+    background-color: white;
+    margin: 40px auto 40px auto;
+    position: relative;
+  }
+
+  
+
+.star .fa-star {
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    background:  #18bc9c;
+    padding: 10px;
+    border-radius: 5px; 
+  }
+
+  .star2 {
+    width: 300px;
+    height: 5px;
+    background-color:  #212529;
+    margin: 40px auto 80px auto;
+    position: relative;
+  }
+
+  .star2 .fa-star {
+    font-size: 35px;
+    color: #212529;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    background:  white;
+    padding: 10px;
+    border-radius: 5px; 
+  }
