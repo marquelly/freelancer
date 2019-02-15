@@ -9,15 +9,11 @@
 Para completar este desafio, criamos um repositório boilerplate (template inicial) com todos os recursos necessários. Isso inclui imagens, estrutura de pastas e arquivos onde você irá escrever seu código.
 
 ## Fluxo de trabalho
-
-1. Faça um [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   deste repositório.
-
-2. Em seguida você deverá **clonar** esse fork em seu computador. Lembre-se do comando `git clone` e de sua estrutura, que normalmente é essa:
-
-   ```bash
-   git clone https://github.com/<nome-de-usuario>/freelancer.git
-   ```
+-----------------------------------------------------------
+Trabalho elaborado conforme especificaçoes relatadas abaixo. 
+adicionada imagens e realizado alinhamento das mesmas bem como a estilizanção utilizando puramente css para realizar todo o processo de estilizaçao do codigo, bem como adicionar cores, trocar as fontes e alterar o posicionamento de todos os itens. 
+Um dos recursos principais nesse processo foi o flex box, recurso este do css que possibilitou alinhar determinados elementos de forma bem mais pratica do que utilizando o position. 
+O ultimo item a ser adicionado foi a estrela pois a mesma exige a utilizaçao de dois elementos agrupados. 
 
 ## Objetivo
 
